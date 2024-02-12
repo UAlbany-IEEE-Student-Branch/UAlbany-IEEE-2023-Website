@@ -8,4 +8,5 @@ updates:
       day: "sunday"
     groups:
       all-dependencies:
-        pattern: "*"
+        patterns: 
+        - "*"
