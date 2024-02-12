@@ -186,7 +186,7 @@ function Home()
 
   const openServerPage = () =>
   {
-    window.location.href = "https://ieeeualbany.herokuapp.com/"
+    window.location.href = "https://github.com/UAlbany-IEEE-Student-Branch"
   }
     
     return (
@@ -275,7 +275,7 @@ function Home()
           <div id = "board-wire8" className = "neutral-wire"/>
 
           <button className = "neutral-button" id = "servernavbutton" onClick={() => powerServerComponents()}>
-            Server
+            Github
             <div id = "server-particle1"/>
             <div id = "server-particle2"/>
             <div id = "server-particle3"/>
