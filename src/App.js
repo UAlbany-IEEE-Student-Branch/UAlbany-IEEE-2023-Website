@@ -1,6 +1,6 @@
 import './App.css';
 import About from './pages/AboutPages/About.js'
-import BoardMembers from './pages/Boardmembers/Members.js'
+import BoardMembers from './pages/BoardMembers/Members.js'
 import Home from './pages/Home.js'
 import EventsHome from './pages/EventsPages/EventsHome.js'
 import Projects from './pages/EventsPages/Projects.js'
