@@ -1,5 +1,5 @@
 import './App.css';
-import About from './pages/Aboutpages/About.js'
+import About from './pages/AboutPages/About.js'
 import BoardMembers from './pages/Boardmembers/Members.js'
 import Home from './pages/Home.js'
 import EventsHome from './pages/EventsPages/EventsHome.js'
