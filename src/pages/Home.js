@@ -5,6 +5,8 @@ function Home()
 {
   async function powerEventComponents(page)
   {
+    window.location.href = "https://www.instagram.com/ieee.ualbany/"
+    return;
     document.getElementById("events-particle1").className = "particle1";
     document.getElementById("events-particle2").className = "particle2";
     document.getElementById("events-particle3").className = "particle3";
@@ -41,6 +43,8 @@ function Home()
 
   async function powerAboutComponents(page)
   {
+    window.location.href = "https://github.com/UAlbany-IEEE-Student-Branch"
+    return; 
     document.getElementById("about-particle1").className = "particle1";
     document.getElementById("about-particle2").className = "particle2";
     document.getElementById("about-particle3").className = "particle3";
@@ -75,6 +79,8 @@ function Home()
 
   async function powerBoardComponents(page)
   {
+    window.location.href = "https://www.youtube.com/@UAlbanyIEEE/videos"
+    return; 
     document.getElementById("board-particle1").className = "particle1";
     document.getElementById("board-particle2").className = "particle2";
     document.getElementById("board-particle3").className = "particle3";
@@ -215,7 +221,7 @@ function Home()
           <div id = "event-wire3" className = "neutral-wire"/>
           <div id = "event-wire4" className = "neutral-wire"/>
           <button className = "neutral-button" id = "eventnavbutton" onClick={() => powerEventComponents('embed-display')}>
-            Events
+            Instagram
             <div id = "events-particle1"/>
             <div id = "events-particle2"/>
             <div id = "events-particle3"/>
@@ -257,7 +263,7 @@ function Home()
           <div id = "about-wire12" className = "neutral-wire"/>
 
           <button className = "neutral-button" id = "boardnavbutton" onClick={() => powerBoardComponents('embed-display')}>
-            Board
+            Youtube
             <div id = "board-particle1"/>
             <div id = "board-particle2"/>
             <div id = "board-particle3"/>
