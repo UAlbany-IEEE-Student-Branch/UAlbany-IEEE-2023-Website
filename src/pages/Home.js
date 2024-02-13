@@ -221,7 +221,7 @@ function Home()
           <div id = "event-wire3" className = "neutral-wire"/>
           <div id = "event-wire4" className = "neutral-wire"/>
           <button className = "neutral-button" id = "eventnavbutton" onClick={() => powerEventComponents('embed-display')}>
-            Instagram
+            Insta
             <div id = "events-particle1"/>
             <div id = "events-particle2"/>
             <div id = "events-particle3"/>
@@ -263,7 +263,7 @@ function Home()
           <div id = "about-wire12" className = "neutral-wire"/>
 
           <button className = "neutral-button" id = "boardnavbutton" onClick={() => powerBoardComponents('embed-display')}>
-            Youtube
+            YT
             <div id = "board-particle1"/>
             <div id = "board-particle2"/>
             <div id = "board-particle3"/>
