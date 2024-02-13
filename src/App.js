@@ -16,7 +16,7 @@ function App() {
 
   return (
     <div className="App">
-      <Router basename="/UAlbany-IEEE-2023-Website">
+      <Router>
         <Routes>
           <Route path="" element={<Home/>}/>
           <Route path="/about" element={<About/>}/>
