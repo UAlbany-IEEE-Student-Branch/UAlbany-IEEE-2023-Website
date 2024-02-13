@@ -1,6 +1,6 @@
 {
   "name": "ieeewebsite",
-  "homepage": "/UAlbany-IEEE-2023-Website",
+  "homepage": "https://ualbany-ieee-student-branch.github.io/UAlbany-IEEE-2023-Website/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
